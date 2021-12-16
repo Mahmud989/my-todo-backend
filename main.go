@@ -55,7 +55,7 @@ func Run(router http.Handler) {
 
 	// Define server options
 	server := &http.Server{
-		Addr:         "localhost:8080",
+		Addr:         ":8080",
 		Handler:      router,
 		ReadTimeout:  10 * time.Second,
 		WriteTimeout: 10 * time.Second,
