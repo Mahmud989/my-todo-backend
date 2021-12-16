@@ -3,7 +3,7 @@ services:
   my-todo-server:
     container_name: my-todo-server
     restart: unless-stopped
-    image: my-todo-server:latest
+    image: hub.letsecure.az/my-todo-server:latest
     ports:
       - "6056:8080"
     networks:
