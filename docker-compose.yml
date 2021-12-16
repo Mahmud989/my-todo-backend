@@ -1,7 +1,7 @@
 version: '3.7'
 services:
-  my-todo-server:
-    container_name: my-todo-server
+  my-todo-backend:
+    container_name: my-todo-backend
     restart: unless-stopped
     image: hub.letsecure.az/my-todo-server:latest
     ports:
