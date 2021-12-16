@@ -5,6 +5,10 @@ go 1.16
 require github.com/gin-gonic/gin v1.7.7
 
 require (
+	github.com/dave/gopackages v0.0.0-20170318123100-46e7023ec56e // indirect
+	github.com/dave/jennifer v1.4.1 // indirect
+	github.com/dave/kerr v0.0.0-20170318121727-bc25dd6abe8e // indirect
+	github.com/dave/rebecca v0.9.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
