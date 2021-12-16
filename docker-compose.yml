@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     image: my-todo-server:latest
     ports:
-      - "8080:8080"
+      - "6056:8080"
     networks:
       - micro-cloud-network
     volumes:
