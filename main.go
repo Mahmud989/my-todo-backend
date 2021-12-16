@@ -105,7 +105,7 @@ func initLogs() {
 	utils.WarningLogger = log.New(log.Writer(), "WARNING: ", log.Ldate|log.Ltime|log.Lshortfile)
 	utils.ErrorLogger = log.New(log.Writer(), "ERROR: ", log.Ldate|log.Ltime|log.Lshortfile)
 	utils.DebugLogger = log.New(log.Writer(), "DEBUG: ", log.Ldate|log.Ltime|log.Lshortfile)
-	initLoggerToPath("logs/logger-info.log", utils.InfoLogger)
+	initLoggerToPath("/logs/logger-info.log", utils.InfoLogger)
 	initLoggerToPath("/logs/logger-warning.log", utils.WarningLogger)
 	initLoggerToPath("/logs/logger-error.log", utils.ErrorLogger)
 	initLoggerToPath("/logs/logger-debug.log", utils.DebugLogger)
