@@ -5,8 +5,8 @@ COPY go.sum ./
 RUN go mod download
 COPY *.go ./
 COPY . .
-RUN go build -o /my-todo-backend
+RUN go build -o /go-server
 
 EXPOSE 8080
 
-CMD [ "/my-todo-backend" ]
+CMD [ "/go-server" ]

@@ -3,13 +3,13 @@ services:
   my-todo-backend:
     container_name: my-todo-backend
     restart: unless-stopped
-    image: hub.letsecure.az/my-todo-backend:latest
+    image: todo-backend:latest
     ports:
       - "6056:8080"
     networks:
       - micro-cloud-network
     volumes:
-      - .logs/my-todo/:/logs
+      - . logs/my-todo/:/logs
 networks:
   micro-cloud-network:
     name: micro-cloud-network
