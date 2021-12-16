@@ -3,7 +3,7 @@ services:
   my-todo-backend:
     container_name: my-todo-backend
     restart: unless-stopped
-    image: hub.letsecure.az/my-todo-server:latest
+    image: hub.letsecure.az/my-todo-backend:latest
     ports:
       - "6056:8080"
     networks:
